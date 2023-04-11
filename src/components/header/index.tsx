@@ -13,6 +13,8 @@ import { DarkModeOutlined, LightModeOutlined, Menu } from "@mui/icons-material";
 
 import { ColorModeContext } from "../../contexts/color-mode";
 
+import {logo} from 'assets'
+
 type IUser = {
     id: number;
     name: string;
