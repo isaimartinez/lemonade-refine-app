@@ -1,11 +1,10 @@
 import { useEffect, useRef } from "react";
 import { useLogin } from "@refinedev/core";
-
 import { Box, Container, Typography } from "@mui/material";
 import { ThemedTitle } from "@refinedev/mui";
-
 import { CredentialResponse } from "../interfaces/google";
 
+import { logo, bg } from "assets";
 
 // Todo: Update your Google Client ID here
 const GOOGLE_CLIENT_ID = "661311144280-rk0bt4p57cpuq7vh80frgcetlqnui61r.apps.googleusercontent.com";
@@ -51,7 +50,16 @@ export const Login: React.FC = () => {
 
     
         return (
-            <Container
+
+            <div className="flex flex-col items-center justify-center w-full h-screen gap-5"
+                style={{backgroundImage: `url(${bg})`,  backgroundRepeat: 'repeat'}}
+            >
+                <img src={logo} alt="Logo" className="w-52 h-52"/>
+
+                <GoogleButton />
+
+            </div>
+          /*   <Container
             style={{
                 height: "100vh",
                 display: "flex",
@@ -65,27 +73,11 @@ export const Login: React.FC = () => {
                 justifyContent="center"
                 flexDirection="column"
             >
-                <ThemedTitle
-                collapsed={false}
-                wrapperStyles={{
-                    fontSize: "22px",
-                    justifyContent: "center",
-                }}
-                />
+                <img src={logo} alt="Logo"/>
 
                 <GoogleButton />
-
-                <Typography align="center" color={"text.secondary"} fontSize="12px">
-                Powered by
-          <img
-            style={{ padding: "0 5px" }}
-            alt="Google"
-            src="https://refine.ams3.cdn.digitaloceanspaces.com/superplate-auth-icons%2Fgoogle.svg"
-          />
-          Google
-                </Typography>
             </Box>
-            </Container>
+            </Container> */
         );
 
 
