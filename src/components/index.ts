@@ -5,5 +5,10 @@ import Button from "./common/Button";
 import SquareButton from "./common/SquareButton";
 import MainContainer from "./common/MainContainer";
 import SuministroItem from "./Suministros/SuministroItem";
+import SquareWoodButton from './common/SquareWoodButton'
 
-export {Stars, Header, Title, Button, SquareButton, MainContainer, SuministroItem}
+import TiendaItem from "./Tienda/TiendaItem";
+
+export {Stars, Header, Title, Button, SquareButton, MainContainer, SuministroItem,
+  TiendaItem, SquareWoodButton
+}

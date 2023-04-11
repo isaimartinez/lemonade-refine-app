@@ -15,6 +15,13 @@ export interface ButtonProps {
   onClick?: () => void
 }
 
+export interface SquareWoodButtonProps {
+  icon?: string,
+  className?: string,
+  iconClassName?: string,
+  onClick?: () => void
+}
+
 export interface MainContainerProps {
   children?: React.ReactNode,
   className?: string
@@ -31,4 +38,9 @@ export interface PriceTagProps {
 
 export interface SuministroItemProps {
   icon?: string,
+}
+
+export interface TiendaItemProps {
+  bgImage?: string,
+  price?: string
 }
