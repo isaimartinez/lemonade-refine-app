@@ -22,6 +22,12 @@ export interface SquareWoodButtonProps {
   onClick?: () => void
 }
 
+export interface LongWoodButtonProps {
+  label?: string,
+  className?: string,
+  onClick?: () => void
+}
+
 export interface MainContainerProps {
   children?: React.ReactNode,
   className?: string
@@ -42,5 +48,10 @@ export interface SuministroItemProps {
 
 export interface TiendaItemProps {
   bgImage?: string,
+  price?: string
+}
+
+export interface ListItemProps {
+  label?: string,
   price?: string
 }

@@ -6,9 +6,14 @@ import SquareButton from "./common/SquareButton";
 import MainContainer from "./common/MainContainer";
 import SuministroItem from "./Suministros/SuministroItem";
 import SquareWoodButton from './common/SquareWoodButton'
+import LongWoodButton from './common/LongWoodButton'
 
 import TiendaItem from "./Tienda/TiendaItem";
 
+import Assets from './DocumentosFinancieros/Assets'
+import Equity from './DocumentosFinancieros/Equity'
+import Liabilities from './DocumentosFinancieros/Liabilities'
+
 export {Stars, Header, Title, Button, SquareButton, MainContainer, SuministroItem,
-  TiendaItem, SquareWoodButton
+  TiendaItem, SquareWoodButton, Assets, Equity, Liabilities, LongWoodButton
 }

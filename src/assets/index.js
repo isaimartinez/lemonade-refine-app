@@ -11,6 +11,7 @@ import LemonadeIcon from './LemonadeIcon.png';
 import IceIcon from './IceIcon.png';
 import CupsIcon from './CupsIcon.png';
 import SquareWoodButtonContainer from './SquareWoodButtonContainer.png'
+import LongWoodButtonContainer from './LongWoodButtonContainer.png'
 
 import BolsaHielos from './Tienda/BolsaHielos.png'
 import Hielera from './Tienda/Hielera.png'
@@ -26,7 +27,7 @@ import RefriGrandeesbloqueado from './Tienda/RefriGrandeesbloqueado.png'
 export {
   logo, bg, TitleContainer, ButtonContainer, MainContainer, PriceTagContainer, DollarSign,
   SquareButtonContainer, 
-  SquareWoodButtonContainer,
+  SquareWoodButtonContainer, LongWoodButtonContainer,
   CupsIcon, IceIcon, LemonadeIcon, SugarIcon, BolsaHielos, Hielera,
   HieleraDesbloqueada, MaquinaHielo, MaquinaHieloDesbloqueada, MiniRefri, MiniRefriDesbloqueado,
   Prox, RefriGrande, RefriGrandeesbloqueado
