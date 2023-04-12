@@ -14,10 +14,13 @@ import Assets from './DocumentosFinancieros/Assets'
 import Equity from './DocumentosFinancieros/Equity'
 import Liabilities from './DocumentosFinancieros/Liabilities'
 
+import AddPrestamistaButton from "./Prestamistas/AddPrestamistaButton";
+import ModalPrestamista from "./Prestamistas/ModalPrestamista";
+
 
 import ModalWelcome from "./Modals/ModalWelcome";
 
 export {Stars, Header, Title, Button, SquareButton, MainContainer, SuministroItem,
   TiendaItem, SquareWoodButton, Assets, Equity, Liabilities, LongWoodButton,
-  ModalWelcome
+  ModalWelcome, AddPrestamistaButton, ModalPrestamista
 }

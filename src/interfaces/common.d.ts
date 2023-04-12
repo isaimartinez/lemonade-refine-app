@@ -56,3 +56,7 @@ export interface ListItemProps {
   price?: string
 }
 
+export interface AddPrestamistaButtonProps {
+  className?: string,
+  onClick?: () => void
+}

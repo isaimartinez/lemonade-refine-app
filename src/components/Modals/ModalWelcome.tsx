@@ -28,21 +28,21 @@ const ModalWelcome = () => {
 
     return (
         <Modal
-            isOpen={isModalWelcomeOpen}
-            //onAfterOpen={afterOpenModal}
-            onRequestClose={closeModal}
-            style={customStyles}
-            contentLabel="Example Modal"
+          isOpen={isModalWelcomeOpen}
+          //onAfterOpen={afterOpenModal}
+          onRequestClose={closeModal}
+          style={customStyles}
+          contentLabel="Modal"
         >
-            <button onClick={closeModal}>close</button>
-            <div>I am a modal</div>
-            <form>
-                <input />
-                <button>tab navigation</button>
-                <button>stays</button>
-                <button>inside</button>
-                <button>the modal</button>
-            </form>
+          <button onClick={closeModal}>close</button>
+          <div>I am a modal</div>
+          <form>
+              <input />
+              <button>tab navigation</button>
+              <button>stays</button>
+              <button>inside</button>
+              <button>the modal</button>
+          </form>
         </Modal>
     )
 }

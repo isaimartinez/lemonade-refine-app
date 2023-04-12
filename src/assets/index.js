@@ -24,11 +24,16 @@ import Prox from './Tienda/Prox.png'
 import RefriGrande from './Tienda/RefriGrande.png'
 import RefriGrandeesbloqueado from './Tienda/RefriGrandeesbloqueado.png'
 
+// Prestamistas
+import AddPrestamistaContainer from './Prestamistas/AddPrestamistaContainer.png'
+import ModalPrestamistaContainer from './Prestamistas/ModalPrestamistaContainer.png'
+
 export {
   logo, bg, TitleContainer, ButtonContainer, MainContainer, PriceTagContainer, DollarSign,
   SquareButtonContainer, 
   SquareWoodButtonContainer, LongWoodButtonContainer,
   CupsIcon, IceIcon, LemonadeIcon, SugarIcon, BolsaHielos, Hielera,
   HieleraDesbloqueada, MaquinaHielo, MaquinaHieloDesbloqueada, MiniRefri, MiniRefriDesbloqueado,
-  Prox, RefriGrande, RefriGrandeesbloqueado
+  Prox, RefriGrande, RefriGrandeesbloqueado,
+  AddPrestamistaContainer, ModalPrestamistaContainer
 };
