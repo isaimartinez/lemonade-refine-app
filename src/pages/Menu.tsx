@@ -1,8 +1,18 @@
 import React from 'react'
-import {Stars, Title, Button} from 'components'
+import {Stars, Title, Button, ModalWelcome} from 'components'
 import {bg} from 'assets'
 
+
+import type { RootState } from 'redux/store'
+import { useSelector, useDispatch } from 'react-redux'
+import { setIsModalWelcomeOpen } from 'redux/reducers/ViewSlice'
+
 const Menu = () => {
+  const {isModalWelcomeOpen} = useSelector((state: RootState) => state.view)
+  const dispatch = useDispatch()
+  
+
+
   return (
     <div className='flex flex-col  h-full' style={{backgroundImage: `url(${bg})`,  backgroundRepeat: 'repeat'}}>
 
@@ -36,6 +46,10 @@ const Menu = () => {
           <Button label='AVANZAR' className='h-28'/>
         </div>
       </div>
+
+      <ModalWelcome />
+
+
     </div>
   )
 }
