@@ -1,6 +1,6 @@
 import React from 'react'
 import {Stars, Title, Button, ModalWelcome} from 'components'
-import {bg} from 'assets'
+import {bg, Stand} from 'assets'
 
 
 import type { RootState } from 'redux/store'
@@ -30,7 +30,9 @@ const Menu = () => {
       </div>
 
 
-      <div className='flex flex-col m-5 p-5 bg-slate-100 shadow-md rounded'>
+      <div className='flex flex-col m-5 p-5 bg-no-repeat bg-contain h-full w-full bg-center shadow-md rounded'
+        style={{backgroundImage: `url(${Stand})`}}
+      >
         <p className='text-slate-800 text-3xl'>Proyección de Ventas Semana</p>
         <div className='flex flex-col items-center justify-center mt-3 gap-2'>
           <p className='text-slate-800 text-xl'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis at officia ullam blanditiis harum obcaecati tempora corporis?</p>

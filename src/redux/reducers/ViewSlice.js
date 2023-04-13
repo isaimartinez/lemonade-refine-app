@@ -3,12 +3,14 @@ import { createSlice } from '@reduxjs/toolkit'
 
 export interface ViewState {
   isModalWelcomeOpen: Boolean,
-  isModalAddPrestamistaOpen: Boolean
+  isModalAddPrestamistaOpen: Boolean,
+  isModalAddTrabajadorOpen: Boolean
 }
 
 const initialState: ViewState = {
     isModalWelcomeOpen: true,
-    isModalAddPrestamistaOpen: false
+    isModalAddPrestamistaOpen: false,
+    isModalAddTrabajadorOpen: false
 }
 
 export const viewSlice = createSlice({
@@ -20,11 +22,14 @@ export const viewSlice = createSlice({
     },
     setIsModalAddPrestamistaOpen: (state, action) => {
         state.isModalAddPrestamistaOpen = action.payload
+    },
+    setIsModalAddTrabajadorOpen: (state, action) => {
+        state.isModalAddTrabajadorOpen = action.payload
     }
   },
 })
 
 // Action creators are generated for each case reducer function
-export const { setIsModalWelcomeOpen, setIsModalAddPrestamistaOpen } = viewSlice.actions
+export const { setIsModalWelcomeOpen, setIsModalAddPrestamistaOpen, setIsModalAddTrabajadorOpen } = viewSlice.actions
 
 export default viewSlice.reducer

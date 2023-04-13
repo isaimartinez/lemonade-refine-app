@@ -20,7 +20,13 @@ import ModalPrestamista from "./Prestamistas/ModalPrestamista";
 
 import ModalWelcome from "./Modals/ModalWelcome";
 
+import AddTrabajadorButton from "./Trabajadores/AddTrabajadorButton";
+import ModalTrabajador from "./Trabajadores/ModalTrabajador";
+
+
+
 export {Stars, Header, Title, Button, SquareButton, MainContainer, SuministroItem,
   TiendaItem, SquareWoodButton, Assets, Equity, Liabilities, LongWoodButton,
-  ModalWelcome, AddPrestamistaButton, ModalPrestamista
+  ModalWelcome, AddPrestamistaButton, ModalPrestamista, AddTrabajadorButton,
+  ModalTrabajador
 }

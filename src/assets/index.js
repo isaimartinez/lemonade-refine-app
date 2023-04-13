@@ -24,9 +24,20 @@ import Prox from './Tienda/Prox.png'
 import RefriGrande from './Tienda/RefriGrande.png'
 import RefriGrandeesbloqueado from './Tienda/RefriGrandeesbloqueado.png'
 
-// Prestamistas
+//================ Prestamistas ================
 import AddPrestamistaContainer from './Prestamistas/AddPrestamistaContainer.png'
 import ModalPrestamistaContainer from './Prestamistas/ModalPrestamistaContainer.png'
+
+//================ Menu ================
+import MenuTitle from './Menu/MenuTitle.png'
+import Stand from './Menu/Stand.png'
+
+//================ Stars ================
+import ThreeStars from './Stars/3Stars.png'
+
+//================ Trabajadores ================
+import AddTrabajadorContainer from './Trabajadores/AddTrabajadorContainer.png'
+import ModalTrabajadorContainer from './Trabajadores/ModalTrabajadorContainer.png'
 
 export {
   logo, bg, TitleContainer, ButtonContainer, MainContainer, PriceTagContainer, DollarSign,
@@ -35,5 +46,8 @@ export {
   CupsIcon, IceIcon, LemonadeIcon, SugarIcon, BolsaHielos, Hielera,
   HieleraDesbloqueada, MaquinaHielo, MaquinaHieloDesbloqueada, MiniRefri, MiniRefriDesbloqueado,
   Prox, RefriGrande, RefriGrandeesbloqueado,
-  AddPrestamistaContainer, ModalPrestamistaContainer
+  AddPrestamistaContainer, ModalPrestamistaContainer,
+  MenuTitle, Stand,
+  ThreeStars,
+  AddTrabajadorContainer, ModalTrabajadorContainer,
 };
